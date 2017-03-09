@@ -20,8 +20,9 @@ This is empty on purpose! Your code to build the resume will go here.
  	"welcome_message": "Welcome, bitch!",
  	"skills":["coding", "cycling", "writing", "painting"],
  	"bioPic":"images/me.jpg"
- }
- $("#main").append(bio.bioPic);
+ };
+
+$("#main").append(bio.bioPic);
 $("#main").append(bio.name);
 $("#main").append(bio.role);
 $("#main").append(bio.contacts);
